@@ -1,0 +1,22 @@
+#include<stdio.h>
+int main()
+{
+//	FILE *fp = fopen("D:\\exercise\a.txt","w");
+	FILE *fp = fopen("D:/exercise/a.txt","w");
+	if(!fp)
+	{
+		printf("打开文件失败\n");
+		return 0;
+	}
+/*
+	if(fp){
+		int num;
+		fscanf(fp,"%d",&num);
+		printf("%d\n",num);
+		fclose(fp);
+	}else{
+		printf("打开文件失败\n");
+	}
+*/
+	return 0;
+}
